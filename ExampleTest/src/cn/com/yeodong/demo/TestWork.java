@@ -43,6 +43,7 @@ public class TestWork {
         		String[] array = line.split("	");
             	line = "COMMENT ON COLUMN \"BK_DMCS\".\""+fileName+ "\"."+ "\""+array[0]+"\"" +" IS "+"\'" +array[1]+"\';";	
             	System.out.println(line);
+            	//后期待更新完善
             //	bw.write(line+"\n");
         	}
         }
